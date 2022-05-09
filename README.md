@@ -27,3 +27,4 @@ machengshuai92, machengshuai@foxmail.com
 ## License
 
 MCSWechat is available under the MIT license. See the LICENSE file for more info.
+# MCSWechat
