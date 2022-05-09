@@ -1,0 +1,6 @@
+framework module MCSWechat {
+  umbrella header "MCSWechat-umbrella.h"
+
+  export *
+  module * { export * }
+}

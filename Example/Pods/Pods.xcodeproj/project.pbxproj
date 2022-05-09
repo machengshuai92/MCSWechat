@@ -1,0 +1,1166 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F84E1817CBD34B981D95229822C4B88C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = WechatOpenSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		062D7762C0C43F7E032CBAA0CE2879FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		101AE514B1B94A86B82FDED217648614 /* MCSWeChatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB3C71C20664D52E9564C57ED915DD3 /* MCSWeChatManager.m */; };
+		19908D6463A4BF6407D16914DF58F6CA /* MCSWechat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B844651E585B08FB06A9FAC09E24B51 /* MCSWechat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F0106EADFB26745BD4B62FF6A4D63DF /* MCSLaunchMiniProgramReq.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5BAFA04115AD82A3E776B9809DD9E8 /* MCSLaunchMiniProgramReq.m */; };
+		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DA5388B8B11C611BCBC191BDF80E073 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DED345FD9CB388B8D231AF5B53B836 /* SwiftSupport.swift */; };
+		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 005123DD7370188C61F3B4617FC87AC3 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7202262DECBB9603A644EE07EECD2E /* UIImage+Snapshot.m */; };
+		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 001295B6C96513B37965C7D741FE30F4 /* FBSnapshotTestCasePlatform.m */; };
+		373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F0EB98BB061AD86A33752E0E0BB560 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4601A51616C4119B14903D6D93667589 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		4936F870F0AA34DA54490971BC2FA1D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
+		5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = DCE1B3654536016E73BDCE83AC95B63B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4513EF82B6F542CCA1B25670C08FE7 /* FBSnapshotTestCase-dummy.m */; };
+		640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = C90B6195A68E883BCD476DCDFF6FC6ED /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 3804629FF5E04ADF981935256D4596EA /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BE1CEA817CCC326EA136F18F06F5D6 /* UIApplication+StrictKeyWindow.m */; };
+		7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C00C5385C265AF1ADDAC30ADA0D51C0 /* FBSnapshotTestCase.m */; };
+		875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */; };
+		8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 0925E7962B92A1642FAA0980A0ACB155 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		93201348E7950D1FD06DDB3DF4A0991D /* Pods-MCSWechat_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F13526CAD1532A57BB48A17F0E3C5E /* Pods-MCSWechat_Tests-dummy.m */; };
+		96FD7DFE9B9283DFE19623D524703DFB /* MCSWechat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9962390D5C7B292F847263643AC590 /* MCSWechat-dummy.m */; };
+		9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E658F388F01C72599CA75537950B6095 /* XCTest.framework */; };
+		A6A8108D35D3D477BEB60EC19E8077B2 /* Pods-MCSWechat_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A36160A5EE164DBF6C7E14CB20C4404E /* Pods-MCSWechat_Example-dummy.m */; };
+		AAB098485537956A9AB5343D44D81A5A /* MCSWeChatManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 756DBC18DEB9AA2F1F50EBBC32D154E3 /* MCSWeChatManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEC1EF4D295038DF98C9C2D092CFF0B9 /* Pods-MCSWechat_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DDAA1B5760A06D6844717ECAB98D3A1 /* Pods-MCSWechat_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 708FC81CB6EDF9AA3EC3043CD9B51106 /* UIImage+Compare.m */; };
+		C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = B75C83D21614E2C1B08D39F7903AD27C /* FBSnapshotTestController.m */; };
+		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
+		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CCCF6F0AD65CA0B5C8ECE64244EC24 /* UIImage+Diff.m */; };
+		D200328328269406B93CC0D2B7AED2CC /* Pods-MCSWechat_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF663D4AADDF51AD3D507F8E28CEF0CE /* Pods-MCSWechat_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D36377BDFA36E2D031D92601652BF1C8 /* MCSLaunchMiniProgramReq.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FE017E441F30054619654901CE48811 /* MCSLaunchMiniProgramReq.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E6278EAA4E7DF68A31AA9B1326A4319E /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		277B200A756C83B7BE03549BAB1C59B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		302F4120EBAADD87870C16EEEF0CD2D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BF5AB130F589B2ECA218BF4DBACB621;
+			remoteInfo = MCSWechat;
+		};
+		38555515B37E450469FCE9865FAE0F41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		3EDDBB5AF9963A7701965DDE05A617BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		7DA4184E56D9551F34E83C79628517A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B2C942B10C22D9BC679A54667E3D41C;
+			remoteInfo = "Pods-MCSWechat_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001295B6C96513B37965C7D741FE30F4 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		005123DD7370188C61F3B4617FC87AC3 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		0925E7962B92A1642FAA0980A0ACB155 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		0BF00C7C2C32BF5B3E83A243435486FF /* MCSWechat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCSWechat-prefix.pch"; sourceTree = "<group>"; };
+		0C1FD41E115232B60655465092C939FC /* Pods-MCSWechat_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MCSWechat_Example"; path = Pods_MCSWechat_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C81C4ACC8BEA6C981598147BBE9A054 /* Pods-MCSWechat_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCSWechat_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0D139E76D9F80E47E6067E51671B8021 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		16A64CC2ECB6B3121128C7135D3E3C68 /* MCSWechat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MCSWechat.release.xcconfig; sourceTree = "<group>"; };
+		1B844651E585B08FB06A9FAC09E24B51 /* MCSWechat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MCSWechat-umbrella.h"; sourceTree = "<group>"; };
+		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		3804629FF5E04ADF981935256D4596EA /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		38CCCF6F0AD65CA0B5C8ECE64244EC24 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		39F5C6D83E662D511DE81009FAED1B33 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.8.7.1/libWeChatSDK.a; sourceTree = "<group>"; };
+		4786FEE054744A33C08619E484F735E2 /* Pods-MCSWechat_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MCSWechat_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		49BB220EB1BC5758C84DC3E74DB01A17 /* Pods-MCSWechat_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MCSWechat_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C00C5385C265AF1ADDAC30ADA0D51C0 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		4CAC35DAC107BAD4284E79E6E6320070 /* MCSWechat-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MCSWechat-Info.plist"; sourceTree = "<group>"; };
+		505DDD63D5C4084782E0A4B669B69087 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		54F0EB98BB061AD86A33752E0E0BB560 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		56BD9C0D2F5F688718B2B2DDAFB392C2 /* Pods-MCSWechat_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MCSWechat_Example-Info.plist"; sourceTree = "<group>"; };
+		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A86453988029454276B2EF2F2BDF746 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		5A9962390D5C7B292F847263643AC590 /* MCSWechat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MCSWechat-dummy.m"; sourceTree = "<group>"; };
+		5AB3C71C20664D52E9564C57ED915DD3 /* MCSWeChatManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MCSWeChatManager.m; path = MCSWechat/Classes/WeChatManager/MCSWeChatManager.m; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA5388B8B11C611BCBC191BDF80E073 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		5DDAA1B5760A06D6844717ECAB98D3A1 /* Pods-MCSWechat_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MCSWechat_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5F874A13B59A16272BFA43656004CAB1 /* WechatOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
+		5FE017E441F30054619654901CE48811 /* MCSLaunchMiniProgramReq.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCSLaunchMiniProgramReq.h; path = MCSWechat/Classes/WeChatManager/MCSLaunchMiniProgramReq.h; sourceTree = "<group>"; };
+		62C090E22388334A53DE3177E449B5FF /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		62D312D9A85DB2AF7E3A8C60DF1D5DF6 /* MCSWechat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MCSWechat.debug.xcconfig; sourceTree = "<group>"; };
+		6845C93B0D3F965432E8776E218285AA /* MCSWechat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MCSWechat.modulemap; sourceTree = "<group>"; };
+		6B2A5222EA673205C3522B92C02D84D4 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.8.7.1/WXApi.h; sourceTree = "<group>"; };
+		708FC81CB6EDF9AA3EC3043CD9B51106 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		756DBC18DEB9AA2F1F50EBBC32D154E3 /* MCSWeChatManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MCSWeChatManager.h; path = MCSWechat/Classes/WeChatManager/MCSWeChatManager.h; sourceTree = "<group>"; };
+		75A6E474B088B38026B98858E1DF7E8C /* Pods-MCSWechat_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCSWechat_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7D0BD7E44809FE4C0468429C0BBDF924 /* Pods-MCSWechat_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MCSWechat_Tests-Info.plist"; sourceTree = "<group>"; };
+		97BE1CEA817CCC326EA136F18F06F5D6 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E59CBBDFB07AE8BB2CE58DEFC003A13 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.8.7.1/WXApiObject.h; sourceTree = "<group>"; };
+		9F5BAFA04115AD82A3E776B9809DD9E8 /* MCSLaunchMiniProgramReq.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MCSLaunchMiniProgramReq.m; path = MCSWechat/Classes/WeChatManager/MCSLaunchMiniProgramReq.m; sourceTree = "<group>"; };
+		A1F088D821B5030548D910FBB6883F8C /* MCSWechat.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MCSWechat.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A36160A5EE164DBF6C7E14CB20C4404E /* Pods-MCSWechat_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MCSWechat_Example-dummy.m"; sourceTree = "<group>"; };
+		A562F87565F4797CA9966C365B2FA311 /* Pods-MCSWechat_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MCSWechat_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A7DED345FD9CB388B8D231AF5B53B836 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		AF663D4AADDF51AD3D507F8E28CEF0CE /* Pods-MCSWechat_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MCSWechat_Example-umbrella.h"; sourceTree = "<group>"; };
+		B73BC59F54D5CBB7ED7EC316536FFCA0 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		B75C83D21614E2C1B08D39F7903AD27C /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		BEA0BC014FDCBD2F33F7EE9825143E96 /* Pods-MCSWechat_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCSWechat_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C90B6195A68E883BCD476DCDFF6FC6ED /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		D364D6B86C7193F1872DB07335768272 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.8.7.1/WechatAuthSDK.h; sourceTree = "<group>"; };
+		DB5FE609147DBAE395575659E7591A3D /* Pods-MCSWechat_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MCSWechat_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DC5DCF8F8EE2A6E48748F876838B2AD1 /* Pods-MCSWechat_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCSWechat_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DC7202262DECBB9603A644EE07EECD2E /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		DC9F77552C3557586BD9387F3C5D09C7 /* MCSWechat */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MCSWechat; path = MCSWechat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE1B3654536016E73BDCE83AC95B63B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		DD44A21FE00BB2AA011AB45A3FBA32A7 /* Pods-MCSWechat_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MCSWechat_Tests.modulemap"; sourceTree = "<group>"; };
+		DF4513EF82B6F542CCA1B25670C08FE7 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		E6278EAA4E7DF68A31AA9B1326A4319E /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		E658F388F01C72599CA75537950B6095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E98EF94757EDC002909C2B406D44B750 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		EA67C87B018EAE73A7D2C75C3363F06D /* WechatOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.release.xcconfig; sourceTree = "<group>"; };
+		EE0F6528F414D236E3013CA3C5F60E9E /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		F084182876643DB25EC10E24DBDBFED2 /* Pods-MCSWechat_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MCSWechat_Example.modulemap"; sourceTree = "<group>"; };
+		F57317C517E6E43407B21BF59C17BF64 /* Pods-MCSWechat_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MCSWechat_Tests"; path = Pods_MCSWechat_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F13526CAD1532A57BB48A17F0E3C5E /* Pods-MCSWechat_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MCSWechat_Tests-dummy.m"; sourceTree = "<group>"; };
+		F834382CEE8EC12F659C1CB99461A360 /* Pods-MCSWechat_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MCSWechat_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		082C3206287ABB4C260BA0BDDADBBCD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4936F870F0AA34DA54490971BC2FA1D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22129E49F55849CAAC67F3EE7A45406C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062D7762C0C43F7E032CBAA0CE2879FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29098243AFE80A1178AFA3E8CDE0CD74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4601A51616C4119B14903D6D93667589 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B880388FF17A336FBF90E30E537508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */,
+				C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */,
+				875A310EAF4D0C136C3FFFF5E0335BE4 /* UIKit.framework in Frameworks */,
+				9D3C5E2F56838937146191468A893244 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0523BF01ECE5EDAB0F67147F830518E1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F874A13B59A16272BFA43656004CAB1 /* WechatOpenSDK.debug.xcconfig */,
+				EA67C87B018EAE73A7D2C75C3363F06D /* WechatOpenSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WechatOpenSDK";
+			sourceTree = "<group>";
+		};
+		2C5C2DA1BCB06B68D13416E247698185 /* Pods-MCSWechat_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DD44A21FE00BB2AA011AB45A3FBA32A7 /* Pods-MCSWechat_Tests.modulemap */,
+				DB5FE609147DBAE395575659E7591A3D /* Pods-MCSWechat_Tests-acknowledgements.markdown */,
+				49BB220EB1BC5758C84DC3E74DB01A17 /* Pods-MCSWechat_Tests-acknowledgements.plist */,
+				F5F13526CAD1532A57BB48A17F0E3C5E /* Pods-MCSWechat_Tests-dummy.m */,
+				F834382CEE8EC12F659C1CB99461A360 /* Pods-MCSWechat_Tests-frameworks.sh */,
+				7D0BD7E44809FE4C0468429C0BBDF924 /* Pods-MCSWechat_Tests-Info.plist */,
+				5DDAA1B5760A06D6844717ECAB98D3A1 /* Pods-MCSWechat_Tests-umbrella.h */,
+				BEA0BC014FDCBD2F33F7EE9825143E96 /* Pods-MCSWechat_Tests.debug.xcconfig */,
+				DC5DCF8F8EE2A6E48748F876838B2AD1 /* Pods-MCSWechat_Tests.release.xcconfig */,
+			);
+			name = "Pods-MCSWechat_Tests";
+			path = "Target Support Files/Pods-MCSWechat_Tests";
+			sourceTree = "<group>";
+		};
+		305BB71EE18804F2BAE06B2B5A1496C3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D63E3C11ADEACFA407AED14EF646912F /* Pods-MCSWechat_Example */,
+				2C5C2DA1BCB06B68D13416E247698185 /* Pods-MCSWechat_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		36B22FE44DC69CEB9911AB5A3BCED083 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6845C93B0D3F965432E8776E218285AA /* MCSWechat.modulemap */,
+				5A9962390D5C7B292F847263643AC590 /* MCSWechat-dummy.m */,
+				4CAC35DAC107BAD4284E79E6E6320070 /* MCSWechat-Info.plist */,
+				0BF00C7C2C32BF5B3E83A243435486FF /* MCSWechat-prefix.pch */,
+				1B844651E585B08FB06A9FAC09E24B51 /* MCSWechat-umbrella.h */,
+				62D312D9A85DB2AF7E3A8C60DF1D5DF6 /* MCSWechat.debug.xcconfig */,
+				16A64CC2ECB6B3121128C7135D3E3C68 /* MCSWechat.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MCSWechat";
+			sourceTree = "<group>";
+		};
+		3ACD9FE7F506641C4C5CCB5A439FE669 /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D364D6B86C7193F1872DB07335768272 /* WechatAuthSDK.h */,
+				6B2A5222EA673205C3522B92C02D84D4 /* WXApi.h */,
+				9E59CBBDFB07AE8BB2CE58DEFC003A13 /* WXApiObject.h */,
+				63EC3FC68C5FA52099B679822CC4F8A9 /* Frameworks */,
+				0523BF01ECE5EDAB0F67147F830518E1 /* Support Files */,
+			);
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		3BB90297003647F4AB99E008E18D01D4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E6278EAA4E7DF68A31AA9B1326A4319E /* FBSnapshotTestCase.h */,
+				4C00C5385C265AF1ADDAC30ADA0D51C0 /* FBSnapshotTestCase.m */,
+				C90B6195A68E883BCD476DCDFF6FC6ED /* FBSnapshotTestCasePlatform.h */,
+				001295B6C96513B37965C7D741FE30F4 /* FBSnapshotTestCasePlatform.m */,
+				005123DD7370188C61F3B4617FC87AC3 /* FBSnapshotTestController.h */,
+				B75C83D21614E2C1B08D39F7903AD27C /* FBSnapshotTestController.m */,
+				DCE1B3654536016E73BDCE83AC95B63B /* UIApplication+StrictKeyWindow.h */,
+				97BE1CEA817CCC326EA136F18F06F5D6 /* UIApplication+StrictKeyWindow.m */,
+				0925E7962B92A1642FAA0980A0ACB155 /* UIImage+Compare.h */,
+				708FC81CB6EDF9AA3EC3043CD9B51106 /* UIImage+Compare.m */,
+				3804629FF5E04ADF981935256D4596EA /* UIImage+Diff.h */,
+				38CCCF6F0AD65CA0B5C8ECE64244EC24 /* UIImage+Diff.m */,
+				54F0EB98BB061AD86A33752E0E0BB560 /* UIImage+Snapshot.h */,
+				DC7202262DECBB9603A644EE07EECD2E /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		447C28B82808C3FD641F61FB1B68BF06 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				505DDD63D5C4084782E0A4B669B69087 /* LICENSE */,
+				A1F088D821B5030548D910FBB6883F8C /* MCSWechat.podspec */,
+				0D139E76D9F80E47E6067E51671B8021 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		44D33F1F05FE01FB61AABAB004E4C9C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
+				DC9F77552C3557586BD9387F3C5D09C7 /* MCSWechat */,
+				0C1FD41E115232B60655465092C939FC /* Pods-MCSWechat_Example */,
+				F57317C517E6E43407B21BF59C17BF64 /* Pods-MCSWechat_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4975BC590ED36DD862E66AA2F3D46543 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62C090E22388334A53DE3177E449B5FF /* FBSnapshotTestCase.modulemap */,
+				DF4513EF82B6F542CCA1B25670C08FE7 /* FBSnapshotTestCase-dummy.m */,
+				E98EF94757EDC002909C2B406D44B750 /* FBSnapshotTestCase-Info.plist */,
+				5A86453988029454276B2EF2F2BDF746 /* FBSnapshotTestCase-prefix.pch */,
+				5DA5388B8B11C611BCBC191BDF80E073 /* FBSnapshotTestCase-umbrella.h */,
+				B73BC59F54D5CBB7ED7EC316536FFCA0 /* FBSnapshotTestCase.debug.xcconfig */,
+				EE0F6528F414D236E3013CA3C5F60E9E /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		4EF8080C1DC48BF10997AA00513B6611 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				A7DED345FD9CB388B8D231AF5B53B836 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		63EC3FC68C5FA52099B679822CC4F8A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39F5C6D83E662D511DE81009FAED1B33 /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88A0A4A769FEFF677BDC8AA2EDCD4961 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8CDCEC26F0988ACFB05BAF4AC5F9E96 /* FBSnapshotTestCase */,
+				3ACD9FE7F506641C4C5CCB5A439FE669 /* WechatOpenSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		97F6589BDEFAB3AEC8CB31C1626097BD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A6AA972DD826CE8F41BC1D185273BB5 /* MCSWechat */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9A6AA972DD826CE8F41BC1D185273BB5 /* MCSWechat */ = {
+			isa = PBXGroup;
+			children = (
+				5FE017E441F30054619654901CE48811 /* MCSLaunchMiniProgramReq.h */,
+				9F5BAFA04115AD82A3E776B9809DD9E8 /* MCSLaunchMiniProgramReq.m */,
+				756DBC18DEB9AA2F1F50EBBC32D154E3 /* MCSWeChatManager.h */,
+				5AB3C71C20664D52E9564C57ED915DD3 /* MCSWeChatManager.m */,
+				447C28B82808C3FD641F61FB1B68BF06 /* Pod */,
+				36B22FE44DC69CEB9911AB5A3BCED083 /* Support Files */,
+			);
+			name = MCSWechat;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB2668559AE577E6E8078C0C291AD417 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				97F6589BDEFAB3AEC8CB31C1626097BD /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				88A0A4A769FEFF677BDC8AA2EDCD4961 /* Pods */,
+				44D33F1F05FE01FB61AABAB004E4C9C5 /* Products */,
+				305BB71EE18804F2BAE06B2B5A1496C3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D63E3C11ADEACFA407AED14EF646912F /* Pods-MCSWechat_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F084182876643DB25EC10E24DBDBFED2 /* Pods-MCSWechat_Example.modulemap */,
+				4786FEE054744A33C08619E484F735E2 /* Pods-MCSWechat_Example-acknowledgements.markdown */,
+				A562F87565F4797CA9966C365B2FA311 /* Pods-MCSWechat_Example-acknowledgements.plist */,
+				A36160A5EE164DBF6C7E14CB20C4404E /* Pods-MCSWechat_Example-dummy.m */,
+				56BD9C0D2F5F688718B2B2DDAFB392C2 /* Pods-MCSWechat_Example-Info.plist */,
+				AF663D4AADDF51AD3D507F8E28CEF0CE /* Pods-MCSWechat_Example-umbrella.h */,
+				75A6E474B088B38026B98858E1DF7E8C /* Pods-MCSWechat_Example.debug.xcconfig */,
+				0C81C4ACC8BEA6C981598147BBE9A054 /* Pods-MCSWechat_Example.release.xcconfig */,
+			);
+			name = "Pods-MCSWechat_Example";
+			path = "Target Support Files/Pods-MCSWechat_Example";
+			sourceTree = "<group>";
+		};
+		E8CDCEC26F0988ACFB05BAF4AC5F9E96 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				3BB90297003647F4AB99E008E18D01D4 /* Core */,
+				4975BC590ED36DD862E66AA2F3D46543 /* Support Files */,
+				4EF8080C1DC48BF10997AA00513B6611 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		FB2668559AE577E6E8078C0C291AD417 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */,
+				3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */,
+				1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */,
+				E658F388F01C72599CA75537950B6095 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B9B7F5E0CDC5C49681223A318BD5637 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D36377BDFA36E2D031D92601652BF1C8 /* MCSLaunchMiniProgramReq.h in Headers */,
+				19908D6463A4BF6407D16914DF58F6CA /* MCSWechat-umbrella.h in Headers */,
+				AAB098485537956A9AB5343D44D81A5A /* MCSWeChatManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBA7E1F4EDD08245942EB58B97432282 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D200328328269406B93CC0D2B7AED2CC /* Pods-MCSWechat_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CF7A53AFE8275DDE075747E8245F97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */,
+				1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				640CCE9C3A28AA3CA15510899F9140EE /* FBSnapshotTestCasePlatform.h in Headers */,
+				2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */,
+				5558B876B579BC1E79BD3D2B19148329 /* UIApplication+StrictKeyWindow.h in Headers */,
+				8AE19756F0126FE92AF625E36F3D70FE /* UIImage+Compare.h in Headers */,
+				67F1963AA7C9EDB78127AD5F566A4949 /* UIImage+Diff.h in Headers */,
+				373413256658309F9053CE22BF62077E /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE6CC6B4F9D345FB0D61E50946F532D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEC1EF4D295038DF98C9C2D092CFF0B9 /* Pods-MCSWechat_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09E90DD8473F5AEB22F4876DF5C9DB2C /* Pods-MCSWechat_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30DA651B1E14C2E5B4A0722CB156503D /* Build configuration list for PBXNativeTarget "Pods-MCSWechat_Tests" */;
+			buildPhases = (
+				FE6CC6B4F9D345FB0D61E50946F532D1 /* Headers */,
+				396B8153461A6415B8D4C53A705E83DD /* Sources */,
+				29098243AFE80A1178AFA3E8CDE0CD74 /* Frameworks */,
+				FEF635163A732A461AB3734B7FF8E936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49F7556703317741541D99E7E493EDCD /* PBXTargetDependency */,
+				5705DC3F8542154C50E2272374F95DEE /* PBXTargetDependency */,
+			);
+			name = "Pods-MCSWechat_Tests";
+			productName = Pods_MCSWechat_Tests;
+			productReference = F57317C517E6E43407B21BF59C17BF64 /* Pods-MCSWechat_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		3B2C942B10C22D9BC679A54667E3D41C /* Pods-MCSWechat_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9352FEC99E99E62F867C72441A33AEE6 /* Build configuration list for PBXNativeTarget "Pods-MCSWechat_Example" */;
+			buildPhases = (
+				BBA7E1F4EDD08245942EB58B97432282 /* Headers */,
+				142680E23CF4FFBCF489EEDBD5A746BB /* Sources */,
+				22129E49F55849CAAC67F3EE7A45406C /* Frameworks */,
+				5C7E1D005A0DD13814CF731EB5B0BA2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3E5A26AE8506FD4B35690BF67D05FB9 /* PBXTargetDependency */,
+				2F41C5842AAB58AEF61D143D721FDB22 /* PBXTargetDependency */,
+			);
+			name = "Pods-MCSWechat_Example";
+			productName = Pods_MCSWechat_Example;
+			productReference = 0C1FD41E115232B60655465092C939FC /* Pods-MCSWechat_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		8BF5AB130F589B2ECA218BF4DBACB621 /* MCSWechat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F417742082281D4A1FB236443C044B /* Build configuration list for PBXNativeTarget "MCSWechat" */;
+			buildPhases = (
+				1B9B7F5E0CDC5C49681223A318BD5637 /* Headers */,
+				508823DC4CF98F6F1EEA48D99477DB01 /* Sources */,
+				082C3206287ABB4C260BA0BDDADBBCD8 /* Frameworks */,
+				F4A630FFE76A4778A24947ADC9E03698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57F67070866EC770660C283313568F71 /* PBXTargetDependency */,
+			);
+			name = MCSWechat;
+			productName = MCSWechat;
+			productReference = DC9F77552C3557586BD9387F3C5D09C7 /* MCSWechat */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				D4CF7A53AFE8275DDE075747E8245F97 /* Headers */,
+				EE210BFC37CDBA0645C09C3819F41723 /* Sources */,
+				E3B880388FF17A336FBF90E30E537508 /* Frameworks */,
+				194C9DCC4899F62F4FB7DDF15C987499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 44D33F1F05FE01FB61AABAB004E4C9C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				8BF5AB130F589B2ECA218BF4DBACB621 /* MCSWechat */,
+				3B2C942B10C22D9BC679A54667E3D41C /* Pods-MCSWechat_Example */,
+				09E90DD8473F5AEB22F4876DF5C9DB2C /* Pods-MCSWechat_Tests */,
+				8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		194C9DCC4899F62F4FB7DDF15C987499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C7E1D005A0DD13814CF731EB5B0BA2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A630FFE76A4778A24947ADC9E03698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF635163A732A461AB3734B7FF8E936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		142680E23CF4FFBCF489EEDBD5A746BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A8108D35D3D477BEB60EC19E8077B2 /* Pods-MCSWechat_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		396B8153461A6415B8D4C53A705E83DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93201348E7950D1FD06DDB3DF4A0991D /* Pods-MCSWechat_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		508823DC4CF98F6F1EEA48D99477DB01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0106EADFB26745BD4B62FF6A4D63DF /* MCSLaunchMiniProgramReq.m in Sources */,
+				96FD7DFE9B9283DFE19623D524703DFB /* MCSWechat-dummy.m in Sources */,
+				101AE514B1B94A86B82FDED217648614 /* MCSWeChatManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE210BFC37CDBA0645C09C3819F41723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C67CBD15D9B5D0B7769B2F469478332 /* FBSnapshotTestCase.m in Sources */,
+				5BE525FF6FA14B999ED2CCC0AA4FA0CF /* FBSnapshotTestCase-dummy.m in Sources */,
+				30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */,
+				C390C6005353FB986CB52F474CEF8588 /* FBSnapshotTestController.m in Sources */,
+				2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */,
+				74339C58AC4E5631FB8C0E662668A796 /* UIApplication+StrictKeyWindow.m in Sources */,
+				B52281F9F4340D4FC8ABB2FEB1FEC08E /* UIImage+Compare.m in Sources */,
+				CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */,
+				2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F41C5842AAB58AEF61D143D721FDB22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = 38555515B37E450469FCE9865FAE0F41 /* PBXContainerItemProxy */;
+		};
+		49F7556703317741541D99E7E493EDCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 277B200A756C83B7BE03549BAB1C59B4 /* PBXContainerItemProxy */;
+		};
+		5705DC3F8542154C50E2272374F95DEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MCSWechat_Example";
+			target = 3B2C942B10C22D9BC679A54667E3D41C /* Pods-MCSWechat_Example */;
+			targetProxy = 7DA4184E56D9551F34E83C79628517A3 /* PBXContainerItemProxy */;
+		};
+		57F67070866EC770660C283313568F71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = 3EDDBB5AF9963A7701965DDE05A617BC /* PBXContainerItemProxy */;
+		};
+		C3E5A26AE8506FD4B35690BF67D05FB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MCSWechat;
+			target = 8BF5AB130F589B2ECA218BF4DBACB621 /* MCSWechat */;
+			targetProxy = 302F4120EBAADD87870C16EEEF0CD2D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CF977E736A9F0297ED689DCD07C3E1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE0F6528F414D236E3013CA3C5F60E9E /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3E6D9806B736EFECDD341C4A7BF5DAF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16A64CC2ECB6B3121128C7135D3E3C68 /* MCSWechat.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MCSWechat/MCSWechat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MCSWechat/MCSWechat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/MCSWechat/MCSWechat.modulemap";
+				PRODUCT_MODULE_NAME = MCSWechat;
+				PRODUCT_NAME = MCSWechat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44BDB3FE7DC0633A04F03D98078A4385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA67C87B018EAE73A7D2C75C3363F06D /* WechatOpenSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D8FF3B533389286F97756549E64513A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F874A13B59A16272BFA43656004CAB1 /* WechatOpenSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F7ADB4DC30AB0BF69CE8D68C58EC531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5DCF8F8EE2A6E48748F876838B2AD1 /* Pods-MCSWechat_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MCSWechat_Tests/Pods-MCSWechat_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MCSWechat_Tests/Pods-MCSWechat_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B73BC59F54D5CBB7ED7EC316536FFCA0 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1FC7515F804AE42C5C461ABE24C5542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75A6E474B088B38026B98858E1DF7E8C /* Pods-MCSWechat_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MCSWechat_Example/Pods-MCSWechat_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MCSWechat_Example/Pods-MCSWechat_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA1EAA8AA31AAE8B2F9C5DB8CC0E61C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62D312D9A85DB2AF7E3A8C60DF1D5DF6 /* MCSWechat.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MCSWechat/MCSWechat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MCSWechat/MCSWechat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/MCSWechat/MCSWechat.modulemap";
+				PRODUCT_MODULE_NAME = MCSWechat;
+				PRODUCT_NAME = MCSWechat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF672CF3EAC7E3203BD4B56406AC9776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEA0BC014FDCBD2F33F7EE9825143E96 /* Pods-MCSWechat_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MCSWechat_Tests/Pods-MCSWechat_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MCSWechat_Tests/Pods-MCSWechat_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FA082458B1BC98DAFE5659BE585CB840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C81C4ACC8BEA6C981598147BBE9A054 /* Pods-MCSWechat_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MCSWechat_Example/Pods-MCSWechat_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MCSWechat_Example/Pods-MCSWechat_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28DAA9880679133EC375B7072B9AEABB /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842C60C4F1EBC85F9C8FF97D39D120FF /* Debug */,
+				0CF977E736A9F0297ED689DCD07C3E1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30DA651B1E14C2E5B4A0722CB156503D /* Build configuration list for PBXNativeTarget "Pods-MCSWechat_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF672CF3EAC7E3203BD4B56406AC9776 /* Debug */,
+				6F7ADB4DC30AB0BF69CE8D68C58EC531 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9352FEC99E99E62F867C72441A33AEE6 /* Build configuration list for PBXNativeTarget "Pods-MCSWechat_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FC7515F804AE42C5C461ABE24C5542 /* Debug */,
+				FA082458B1BC98DAFE5659BE585CB840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2F417742082281D4A1FB236443C044B /* Build configuration list for PBXNativeTarget "MCSWechat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA1EAA8AA31AAE8B2F9C5DB8CC0E61C8 /* Debug */,
+				3E6D9806B736EFECDD341C4A7BF5DAF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F84E1817CBD34B981D95229822C4B88C /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D8FF3B533389286F97756549E64513A /* Debug */,
+				44BDB3FE7DC0633A04F03D98078A4385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

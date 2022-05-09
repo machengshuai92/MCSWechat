@@ -7,12 +7,19 @@
 //
 
 #import "MCSAppDelegate.h"
+#import "MCSWeChatManager.h"
 
 @implementation MCSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    if ([[MCSWeChatManager shareInstance] mcsRegisterWeChatWithAppID:@"" withUniversalLink:@""]) {
+        NSLog(@"注册成功");
+    }else{
+        NSLog(@"注册失败");
+    }
+        
     return YES;
 }
 

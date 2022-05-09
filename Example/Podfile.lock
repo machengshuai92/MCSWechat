@@ -1,0 +1,31 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MCSWechat (0.0.1):
+    - WechatOpenSDK
+  - WechatOpenSDK (1.8.7.1)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MCSWechat (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - WechatOpenSDK
+
+EXTERNAL SOURCES:
+  MCSWechat:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MCSWechat: 1d3238f5db91c823fdc4106e112dbbf0ac9dcef5
+  WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
+
+PODFILE CHECKSUM: 30ca73392bece32cbb128e326a8763dcd35321ab
+
+COCOAPODS: 1.11.3
